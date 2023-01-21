@@ -345,6 +345,14 @@ footer ul li a:hover {
   background-image: url('../img/falcon-9.webp');
 }
 
+.bg-falcon-heavy {
+  background-image: url('../img/falcon-heavy.webp');
+}
+
+.bg-dragon {
+  background-image: url('../img/dragon.webp');
+}
+
 .section-animate {
   animation: fadeIn 2s ease-in-out;
 }
@@ -356,6 +364,7 @@ footer ul li a:hover {
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   text-align: center;
+  width: 80%;
 }
 
 .section-inner-center h3 {
@@ -390,8 +399,6 @@ footer ul li a:hover {
   font-weight: 300;
 }
 
-
-
 /* ! Animations */
 @keyframes fadeInUp {
   0% {
@@ -414,8 +421,6 @@ footer ul li a:hover {
     opacity: 1;
   }
 }
-
-
 
 @keyframes fadeBounce {
   0%,
@@ -441,6 +446,9 @@ footer ul li a:hover {
   /* Show main mobile items */
   .mobile-only {
     display: block;
+  }
+  .section-inner-center h3 {
+    font-size: 75px;
   }
 }
 
@@ -468,5 +476,21 @@ footer ul li a:hover {
   .logo {
     width: 150px;
     margin: auto;
+  }
+
+  .section-inner-center {
+    width: 80%;
+  }
+
+  .section-inner-center h3 {
+    font-size: 50px;
+  }
+  /* stats */
+  .stats {
+    flex-direction: column;
+  }
+
+  .stats div {
+    margin-bottom: 20px;
   }
 }
